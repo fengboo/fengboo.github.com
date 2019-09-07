@@ -38,6 +38,8 @@
   
   
   
+    <link href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.css" rel="stylesheet">
+  
   
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.css">
   
@@ -51,7 +53,7 @@
       
       
       <div class="profile-block text-center">
-        <a id="avatar" href="https://github.com/fengboo" target="_blank">
+        <a id="avatar" href="https://bofeng.tk/about" target="_blank">
           <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
         </a>
         <h2 id="name" class="hidden-xs hidden-sm">冯博</h2>
@@ -141,6 +143,16 @@
             <i class="icon icon-project"></i>
             
             <span class="menu-title">项目</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-messages">
+          <a href="/messages">
+            
+            <i class="icon icon-book-fill"></i>
+            
+            <span class="menu-title">留言</span>
           </a>
         </li>
         
@@ -312,7 +324,7 @@
               <figure class="media media-middle">
                 <div class="media-left pr-no">
                   <a href="http://ustc.edu.cn/" target="_blank" class="img-burn thumb-md media-middle">
-                    <img src="/images/favatar/chuangzaoshi-logo.png" class="w-full" alt="">
+                    <img src="/images/favatar/ustc-logo.png" class="w-full" alt="">
                   </a>
                 </div>
                 <div class="media-body p-0x">
@@ -331,13 +343,32 @@
               <figure class="media media-middle">
                 <div class="media-left pr-no">
                   <a href="http://taobao.com" target="_blank" class="img-burn thumb-md media-middle">
-                    <img src="/images/favatar/idesign-logo.png" class="w-full" alt="">
+                    <img src="/images/favatar/taobao-logo.jpg" class="w-full" alt="">
                   </a>
                 </div>
                 <div class="media-body p-0x">
                   <h4 class="media-heading"><a href="http://taobao.com" target="_blank"><span class="text-dark">淘宝</span></a></h4>
                   <div class="text-muted">
                     马云爸爸的菜市场
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div>
+          
+        
+          <div class="col-sm-6 col-md-4">
+            <div class="panel panel-default hover-shadow hover-grow">
+              <figure class="media media-middle">
+                <div class="media-left pr-no">
+                  <a href="http://web.sanguosha.com" target="_blank" class="img-burn thumb-md media-middle">
+                    <img src="/images/favatar/sanguosha-logo.jpg" class="w-full" alt="">
+                  </a>
+                </div>
+                <div class="media-body p-0x">
+                  <h4 class="media-heading"><a href="http://web.sanguosha.com" target="_blank"><span class="text-dark">三国杀</span></a></h4>
+                  <div class="text-muted">
+                    学习中，请勿打扰
                   </div>
                 </div>
               </figure>
@@ -433,6 +464,35 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
       
 
 
+
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.js"></script>
+  <script>
+  //利用 FancyBox 实现点击图片放大
+  $(document).ready(function() {
+    $('article img').not('[hidden]').not('.panel-body img').each(function() {
+      var $image = $(this);
+      var imageCaption = $image.attr('alt');
+      var $imageWrapLink = $image.parent('a');
+      if ($imageWrapLink.length < 1) {
+        var src = this.getAttribute('src');
+        var idx = src.lastIndexOf('?');
+        if (idx != -1) {
+          src = src.substring(0, idx);
+        }
+        $imageWrapLink = $image.wrap('<a href="' + src + '"></a>').parent('a');
+      }
+      $imageWrapLink.attr('data-fancybox', 'images');
+      if (imageCaption) {
+        $imageWrapLink.attr('data-caption', imageCaption);
+      }
+    });
+    $().fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+    });
+  });
+  </script>
 
 
 

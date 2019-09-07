@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://bofeng.tk/messages/index.html</loc>
+    
+    <lastmod>2019-09-07T11:12:38.393Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bofeng.tk/about/index.html</loc>
+    
+    <lastmod>2019-09-07T11:04:16.717Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://bofeng.tk//404.html</loc>
     
     <lastmod>2019-09-06T12:25:16.971Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://bofeng.tk/404/html5-homepage/html5-homepage/index.html</loc>
     
     <lastmod>2019-09-06T12:14:22.249Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bofeng.tk/about/index.html</loc>
-    
-    <lastmod>2019-09-04T11:31:41.622Z</lastmod>
     
   </url>
   
