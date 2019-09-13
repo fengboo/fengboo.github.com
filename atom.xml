@@ -5,9 +5,9 @@
   <subtitle>风波的个人小站</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://bofeng.tk/"/>
+  <link href="http://fengbook.cn/"/>
   <updated>2019-09-12T02:00:35.924Z</updated>
-  <id>http://bofeng.tk/</id>
+  <id>http://fengbook.cn/</id>
   
   <author>
     <name>Bo Feng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>模拟IC随笔——Cascode不要这样接</title>
-    <link href="http://bofeng.tk/2019/09/08/%E6%A8%A1%E6%8B%9FIC%E9%9A%8F%E7%AC%94%E2%80%94%E2%80%94Cascode%E4%B8%8D%E8%A6%81%E8%BF%99%E6%A0%B7%E6%8E%A5/"/>
-    <id>http://bofeng.tk/2019/09/08/模拟IC随笔——Cascode不要这样接/</id>
+    <link href="http://fengbook.cn/2019/09/08/%E6%A8%A1%E6%8B%9FIC%E9%9A%8F%E7%AC%94%E2%80%94%E2%80%94Cascode%E4%B8%8D%E8%A6%81%E8%BF%99%E6%A0%B7%E6%8E%A5/"/>
+    <id>http://fengbook.cn/2019/09/08/模拟IC随笔——Cascode不要这样接/</id>
     <published>2019-09-08T08:09:00.000Z</published>
     <updated>2019-09-12T02:00:35.924Z</updated>
     
@@ -35,21 +35,21 @@
     
     </summary>
     
-      <category term="模拟IC" scheme="http://bofeng.tk/categories/%E6%A8%A1%E6%8B%9FIC/"/>
+      <category term="模拟IC" scheme="http://fengbook.cn/categories/%E6%A8%A1%E6%8B%9FIC/"/>
     
     
-      <category term="学习" scheme="http://bofeng.tk/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="http://fengbook.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="模拟IC" scheme="http://bofeng.tk/tags/%E6%A8%A1%E6%8B%9FIC/"/>
+      <category term="模拟IC" scheme="http://fengbook.cn/tags/%E6%A8%A1%E6%8B%9FIC/"/>
     
-      <category term="IC" scheme="http://bofeng.tk/tags/IC/"/>
+      <category term="IC" scheme="http://fengbook.cn/tags/IC/"/>
     
   </entry>
   
   <entry>
     <title>新学期开始了</title>
-    <link href="http://bofeng.tk/2019/09/02/%E6%96%B0%E5%AD%A6%E6%9C%9F%E5%BC%80%E5%A7%8B%E4%BA%86/"/>
-    <id>http://bofeng.tk/2019/09/02/新学期开始了/</id>
+    <link href="http://fengbook.cn/2019/09/02/%E6%96%B0%E5%AD%A6%E6%9C%9F%E5%BC%80%E5%A7%8B%E4%BA%86/"/>
+    <id>http://fengbook.cn/2019/09/02/新学期开始了/</id>
     <published>2019-09-02T13:09:32.000Z</published>
     <updated>2019-09-02T13:38:47.620Z</updated>
     
@@ -65,18 +65,18 @@
     </summary>
     
     
-      <category term="杂" scheme="http://bofeng.tk/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="http://fengbook.cn/tags/%E6%9D%82/"/>
     
   </entry>
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="http://bofeng.tk/2019/08/19/MyFirstBlog/"/>
-    <id>http://bofeng.tk/2019/08/19/MyFirstBlog/</id>
+    <link href="http://fengbook.cn/2019/08/19/MyFirstBlog/"/>
+    <id>http://fengbook.cn/2019/08/19/MyFirstBlog/</id>
     <published>2019-08-19T13:09:32.000Z</published>
     <updated>2019-09-02T13:38:09.601Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a class="markdownIt-Anchor" href="#我的第一篇博客"></a> 我的第一篇博客</h1><h2 id="在梁师兄的启发下申请了自己的域名bofengtk建了自己的博客-用github与hexo制作-傻瓜式建站"><a class="markdownIt-Anchor" href="#在梁师兄的启发下申请了自己的域名bofengtk建了自己的博客-用github与hexo制作-傻瓜式建站"></a> 在梁师兄的启发下，申请了自己的域名<a href="https://bofeng.tk" title="bofeng.tk">bofeng.tk</a>，建了自己的博客。用GitHub与HEXO制作。傻瓜式建站。</h2><h2 id="这是我的第一篇博客-最近在忙icicm会议论文与dji面试明天出发去tw-没时间好好来做博客-先随便水一篇祝一切顺利"><a class="markdownIt-Anchor" href="#这是我的第一篇博客-最近在忙icicm会议论文与dji面试明天出发去tw-没时间好好来做博客-先随便水一篇祝一切顺利"></a> 这是我的第一篇博客。最近在忙ICICM会议论文与DJI面试，明天出发去TW。没时间好好来做博客。先随便水一篇，祝一切顺利。</h2><h2 id="文章顺利接收面试顺利通过旅行玩得开心-加油"><a class="markdownIt-Anchor" href="#文章顺利接收面试顺利通过旅行玩得开心-加油"></a> 文章顺利接收，面试顺利通过，旅行玩得开心。加油！！！</h2><h3 id="2019819"><a class="markdownIt-Anchor" href="#2019819"></a> 2019.8.19</h3>]]></content>
+    <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a class="markdownIt-Anchor" href="#我的第一篇博客"></a> 我的第一篇博客</h1><h2 id="在梁师兄的启发下申请了自己的域名bofengtk建了自己的博客-用github与hexo制作-傻瓜式建站"><a class="markdownIt-Anchor" href="#在梁师兄的启发下申请了自己的域名bofengtk建了自己的博客-用github与hexo制作-傻瓜式建站"></a> 在梁师兄的启发下，申请了自己的域名<a href="https://bofeng.tk" title="bofeng.tk" target="_blank" rel="noopener">bofeng.tk</a>，建了自己的博客。用GitHub与HEXO制作。傻瓜式建站。</h2><h2 id="这是我的第一篇博客-最近在忙icicm会议论文与dji面试明天出发去tw-没时间好好来做博客-先随便水一篇祝一切顺利"><a class="markdownIt-Anchor" href="#这是我的第一篇博客-最近在忙icicm会议论文与dji面试明天出发去tw-没时间好好来做博客-先随便水一篇祝一切顺利"></a> 这是我的第一篇博客。最近在忙ICICM会议论文与DJI面试，明天出发去TW。没时间好好来做博客。先随便水一篇，祝一切顺利。</h2><h2 id="文章顺利接收面试顺利通过旅行玩得开心-加油"><a class="markdownIt-Anchor" href="#文章顺利接收面试顺利通过旅行玩得开心-加油"></a> 文章顺利接收，面试顺利通过，旅行玩得开心。加油！！！</h2><h3 id="2019819"><a class="markdownIt-Anchor" href="#2019819"></a> 2019.8.19</h3>]]></content>
     
     <summary type="html">
     
@@ -89,7 +89,7 @@
     </summary>
     
     
-      <category term="杂" scheme="http://bofeng.tk/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="http://fengbook.cn/tags/%E6%9D%82/"/>
     
   </entry>
   
