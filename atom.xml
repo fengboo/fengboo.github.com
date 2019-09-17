@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fengbook.cn/"/>
-  <updated>2019-09-14T09:38:10.165Z</updated>
+  <updated>2019-09-17T11:28:33.064Z</updated>
   <id>http://fengbook.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://fengbook.cn/2019/09/14/Latex%E6%96%87%E6%9C%AC%E5%AF%B9%E6%AF%94/"/>
     <id>http://fengbook.cn/2019/09/14/Latex文本对比/</id>
     <published>2019-09-14T09:13:32.000Z</published>
-    <updated>2019-09-14T09:38:10.165Z</updated>
+    <updated>2019-09-17T11:28:33.064Z</updated>
     
-    <content type="html"><![CDATA[<p>利用Latex写文章时，有时候编辑会要求对修改内容进行高亮显示。可以利用<strong>Latexdiff</strong>方便地进行对比与显示。</p><p>首先安装<strong>Perl</strong>，可以下载安装<a href="http://strawberryperl.com/" target="_blank" rel="noopener">Straberry Perl</a>。然后将perl.exe所在的路径添加到系统变量的Path下。</p><p>确认安装<strong>Latexdiff</strong>，一般安装CTex时会自动安装好Latexdiff。</p><p>在.tex所在的文件夹下打开Perl或cmd（我使用cmd失败），输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">latexdiff-so old_version.tex new_version.tex &gt; differences.tex</span><br></pre></td></tr></table></figure><p>即可得到对比的tex文件differences.tex。再编译一次新生成的differences.tex便得到对比文件。</p>]]></content>
+    <content type="html"><![CDATA[<p>利用Latex写文章时，有时候编辑会要求对修改内容进行高亮显示。可以利用<strong>Latexdiff</strong>方便地进行对比与显示。</p><p>首先安装<strong>Perl</strong>，可以下载安装<a href="http://strawberryperl.com/" target="_blank" rel="noopener">Strawberry Perl</a>。然后将perl.exe所在的路径添加到系统变量的Path下。</p><p>确认安装<strong>Latexdiff</strong>，一般安装CTex时会自动安装好Latexdiff。</p><p>在.tex所在的文件夹下打开Perl或cmd（我使用cmd失败），输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">latexdiff-so old_version.tex new_version.tex &gt; differences.tex</span><br></pre></td></tr></table></figure><p>即可得到对比的tex文件differences.tex。再编译一次新生成的differences.tex便得到对比文件。</p>]]></content>
     
     <summary type="html">
     
