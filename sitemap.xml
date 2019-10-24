@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://fengbook.cn/about/index.html</loc>
+    
+    <lastmod>2019-10-24T08:47:20.385Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://fengbook.cn/2019/10/07/70%E5%91%A8%E5%B9%B4%E5%9B%BD%E5%BA%86/</loc>
     
     <lastmod>2019-10-07T14:13:42.054Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://fengbook.cn/2019/09/14/Latex%E6%96%87%E6%9C%AC%E5%AF%B9%E6%AF%94/</loc>
     
     <lastmod>2019-09-17T11:28:33.064Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fengbook.cn/about/index.html</loc>
-    
-    <lastmod>2019-09-08T12:43:15.776Z</lastmod>
     
   </url>
   
