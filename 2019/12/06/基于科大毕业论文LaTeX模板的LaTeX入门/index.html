@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000">
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top">
+  
+  
+  <title>基于科大毕业论文LaTeX模板的LaTeX入门 | 风波港</title>
+  <meta name="description" content="LaTeX简介 LaTeX安装 科大毕业论文模板使用 LaTeX基础操作  插入标题 交叉引用 插入图片 插入表格 插入公式 插入脚注 插入编号 参考文献        本文是基于科大毕业论文LaTeX模板的LaTeX入门教程，主要包括LaTeX的安装、模板的使用以及一些基础语法的介绍，再分享几个关于LaTeX的实用网站。对于没有接触过LaTeX的人可能会有所帮助。  LaTeX简介#">
+<meta name="keywords" content="LaTeX">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基于科大毕业论文LaTeX模板的LaTeX入门">
+<meta property="og:url" content="http://fengbook.cn/2019/12/06/基于科大毕业论文LaTeX模板的LaTeX入门/index.html">
+<meta property="og:site_name" content="风波港">
+<meta property="og:description" content="LaTeX简介 LaTeX安装 科大毕业论文模板使用 LaTeX基础操作  插入标题 交叉引用 插入图片 插入表格 插入公式 插入脚注 插入编号 参考文献        本文是基于科大毕业论文LaTeX模板的LaTeX入门教程，主要包括LaTeX的安装、模板的使用以及一些基础语法的介绍，再分享几个关于LaTeX的实用网站。对于没有接触过LaTeX的人可能会有所帮助。  LaTeX简介#">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-12-06T13:20:53.259Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="基于科大毕业论文LaTeX模板的LaTeX入门">
+<meta name="twitter:description" content="LaTeX简介 LaTeX安装 科大毕业论文模板使用 LaTeX基础操作  插入标题 交叉引用 插入图片 插入表格 插入公式 插入脚注 插入编号 参考文献        本文是基于科大毕业论文LaTeX模板的LaTeX入门教程，主要包括LaTeX的安装、模板的使用以及一些基础语法的介绍，再分享几个关于LaTeX的实用网站。对于没有接触过LaTeX的人可能会有所帮助。  LaTeX简介#">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://fengbook.cn/2019/12/06/基于科大毕业论文LaTeX模板的LaTeX入门/index.html">
+  
+    <link rel="alternate" href="/atom.xml" title="风波港" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/source/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+  
+  
+    <link href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.css" rel="stylesheet">
+  
+  
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.css">
+  
+</head>
+
+
+<body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage">
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="slimContent">
+    <div class="navbar-header">
+      
+      
+      <div class="profile-block text-center">
+        <a id="avatar" href="https://fengbook.cn/about" target="_blank">
+          <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
+        </a>
+        <h2 id="name" class="hidden-xs hidden-sm">冯博</h2>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">博士</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> 合肥， 中国</small>
+      </div>
+      
+      <div class="search" id="search-form-wrap">
+
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="搜索" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+    <div class="ins-input-wrapper">
+      <input type="text" class="ins-search-input" placeholder="想要查找什么..." x-webkit-speech />
+      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    </div>
+    <div class="ins-section-wrapper">
+      <div class="ins-section-container"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+      <ul class="nav navbar-nav main-nav menu-highlight">
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="icon icon-home-fill"></i>
+            
+            <span class="menu-title">首页</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="icon icon-archives-fill"></i>
+            
+            <span class="menu-title">归档</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            
+            <i class="icon icon-folder"></i>
+            
+            <span class="menu-title">分类</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="icon icon-tags"></i>
+            
+            <span class="menu-title">标签</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-repository">
+          <a href="/repository">
+            
+            <i class="icon icon-project"></i>
+            
+            <span class="menu-title">项目</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-messages">
+          <a href="/messages">
+            
+            <i class="icon icon-book-fill"></i>
+            
+            <span class="menu-title">留言</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links">
+            
+            <i class="icon icon-friendship"></i>
+            
+            <span class="menu-title">友链</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            
+            <i class="icon icon-cup-fill"></i>
+            
+            <span class="menu-title">关于</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/fengboo" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="http://weibo.com/fengbook" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    </nav>
+  </div>
+</header>
+
+  
+    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">公告</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content">
+                <p>欢迎交流与分享经验!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget-body">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/LaTeX/">LaTeX</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Latex/">Latex</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/杂/">杂</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/模拟IC/">模拟IC</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget-body">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/IC/">IC</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/LaTeX/">LaTeX</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Latex/">Latex</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/学习/">学习</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂/">杂</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/模拟IC/">模拟IC</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget-body tagcloud">
+      <a href="/tags/IC/" style="font-size: 13.5px;">IC</a> <a href="/tags/LaTeX/" style="font-size: 13px;">LaTeX</a> <a href="/tags/Latex/" style="font-size: 13px;">Latex</a> <a href="/tags/学习/" style="font-size: 14px;">学习</a> <a href="/tags/杂/" style="font-size: 14px;">杂</a> <a href="/tags/模拟IC/" style="font-size: 13.5px;">模拟IC</a>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget-body">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">十二月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">八月 2019</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled no-thumbnail">
+        
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/LaTeX/">LaTeX</a>
+              </p>
+              <p class="item-title">
+                <a href="/2019/12/06/基于科大毕业论文LaTeX模板的LaTeX入门/" class="title">基于科大毕业论文LaTeX模板的LaTeX入门</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-12-06T01:46:00.000Z" itemprop="datePublished">2019-12-06</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/模拟IC/">模拟IC</a>
+              </p>
+              <p class="item-title">
+                <a href="/2019/11/29/模拟IC随笔——SPICE模型整理/" class="title">模拟IC随笔——SPICE模型整理</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-11-29T11:02:00.000Z" itemprop="datePublished">2019-11-29</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/杂/">杂</a>
+              </p>
+              <p class="item-title">
+                <a href="/2019/10/07/70周年国庆/" class="title">70周年国庆</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-10-07T13:01:00.000Z" itemprop="datePublished">2019-10-07</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/Latex/">Latex</a>
+              </p>
+              <p class="item-title">
+                <a href="/2019/09/14/Latex文本对比/" class="title">Latex文本对比</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-09-14T09:13:32.000Z" itemprop="datePublished">2019-09-14</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/模拟IC/">模拟IC</a>
+              </p>
+              <p class="item-title">
+                <a href="/2019/09/08/模拟IC随笔——Cascode不要这样接/" class="title">模拟IC随笔——Cascode不要这样接</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-09-08T08:09:00.000Z" itemprop="datePublished">2019-09-08</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
+  
+
+    
+  </div>
+</aside>
+
+  
+  
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-基于科大毕业论文LaTeX模板的LaTeX入门" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      
+        
+  
+    <h1 class="article-title" itemprop="name">
+      基于科大毕业论文LaTeX模板的LaTeX入门
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2019/12/06/基于科大毕业论文LaTeX模板的LaTeX入门/" class="article-date">
+	  <time datetime="2019-12-06T01:46:00.000Z" itemprop="datePublished">2019-12-06</time>
+	</a>
+</span>
+        
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/LaTeX/">LaTeX</a>
+  </span>
+
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/LaTeX/">LaTeX</a>
+  </span>
+
+
+        
+	<span class="article-read hidden-xs">
+	    <i class="icon icon-eye-fill" aria-hidden="true"></i>
+	    <span id="busuanzi_container_page_pv">
+			<span id="busuanzi_value_page_pv">0</span>
+		</span>
+	</span>
+
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/12/06/基于科大毕业论文LaTeX模板的LaTeX入门/#comments" class="article-comment-link">评论</a></span>
+        
+	
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 2.4k(字)</span>
+	
+	
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 8(分)</span>
+	
+
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <div class="toc">
+<!-- toc -->
+<ul>
+<li><a href="#latex-jian-jie">LaTeX简介</a></li>
+<li><a href="#latex-an-zhuang">LaTeX安装</a></li>
+<li><a href="#ke-da-bi-ye-lun-wen-mo-ban-shi-yong">科大毕业论文模板使用</a></li>
+<li><a href="#latex-ji-chu-cao-zuo">LaTeX基础操作</a>
+<ul>
+<li><a href="#cha-ru-biao-ti">插入标题</a></li>
+<li><a href="#jiao-cha-yin-yong">交叉引用</a></li>
+<li><a href="#cha-ru-tu-pian">插入图片</a></li>
+<li><a href="#cha-ru-biao-ge">插入表格</a></li>
+<li><a href="#cha-ru-gong-shi">插入公式</a></li>
+<li><a href="#cha-ru-jiao-zhu">插入脚注</a></li>
+<li><a href="#cha-ru-bian-hao">插入编号</a></li>
+<li><a href="#can-kao-wen-xian">参考文献</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+</div>
+<p>  本文是基于科大毕业论文LaTeX模板的LaTeX入门教程，主要包括LaTeX的安装、模板的使用以及一些基础语法的介绍，再分享几个关于LaTeX的实用网站。对于没有接触过LaTeX的人可能会有所帮助。</p>
+<h2><span id="latex-jian-jie"> LaTeX简介</span><a href="#latex-jian-jie" class="header-anchor">#</a></h2>
+<p>  LaTeX是一个文字排版工具，可以用于期刊、论文等的排版。相比于Word，LaTeX是非所见即所得的，所以刚开始使用时可能会觉得麻烦，不如Word方便直观。但相应地，非所见即所得也是LaTeX的一个优势，通过编程实现排版，可以让人更专注于文章内容的书写。对于像毕业论文这样有着固定格式的写作，使用Word比较麻烦，你需要对每个标题、公式、图表重复繁琐地格式转换工作。如果使用LaTeX，就可以很方便地套用已有的模板，再加上LaTeX方便的数学公式、表格以及图片的编辑功能，很容易输出一篇格式漂亮的论文。</p>
+<h2><span id="latex-an-zhuang"> LaTeX安装</span><a href="#latex-an-zhuang" class="header-anchor">#</a></h2>
+<p>  推荐下载安装学校的TeXLive，<a href="http://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive.iso" target="_blank" rel="noopener">点此</a>下载。如果不在校内，也可以使用官方的下载工具，<a href="http://mirrors.ustc.edu.cn/CTAN/systems/texlive/tlnet/install-tl-windows.exe" target="_blank" rel="noopener">点此</a>下载。下载后直接安装即可。安装时会自动安装一个LaTeX编辑与编译的工具TexWorks。<br>
+  再推荐一个在线编写LaTeX网站，<a href="overleaf.com">overleaf.com</a>，需要登陆注册。网站虽好，但网速随缘。</p>
+<h2><span id="ke-da-bi-ye-lun-wen-mo-ban-shi-yong"> 科大毕业论文模板使用</span><a href="#ke-da-bi-ye-lun-wen-mo-ban-shi-yong" class="header-anchor">#</a></h2>
+<p>  <a href="https://github.com/ustctug/ustcthesis" target="_blank" rel="noopener">点此</a>转到科大毕业论文的LaTeX模板的Github项目，该项目一直在根据<a href="https://gradschool.ustc.edu.cn/ylb/material/xw/wdxz/32.pdf" target="_blank" rel="noopener">《研究生学位论文撰写手册》</a>更新，推荐在此下载最新版。下载完成后解压到自己的文件夹，可以看里面的README.md获取帮助。main.tex是此模板的主文件，用上一步安装的TexWorks可以编辑并编译输出pdf文件。对于不包含参考文献(bib)的模板，直接点XeLaTeX即可编译；对于包含参考文献的模板，需要先点XeLaTeX编译，再点BibTeX编译，最后再点XeLaTeX编译，输出正确的pdf文件。</p>
+<p>  注：如果编译时提示没有指定的字体，可以<a href="./%E5%8F%AF%E8%83%BD%E4%BC%9A%E7%BC%BA%E5%B0%91%E7%9A%84%E5%AD%97%E4%BD%93.rar">点此</a>下载字体安装。注意安装时要选择为所有用户安装。</p>
+<h2><span id="latex-ji-chu-cao-zuo"> LaTeX基础操作</span><a href="#latex-ji-chu-cao-zuo" class="header-anchor">#</a></h2>
+<p>  当模板可以成功编译后，就可以在模板上进行修改添加，完成自己的论文了。使用LaTeX的好处便是，你不必知道每一句的语法具体是什么意思，你只需要知道它是做什么的就可以。你可以根据模板及导出的pdf修改模板中的内容，例如论文标题、作者和导师姓名、摘要等。对于整体的排版你不必关心具体是怎么实现的，只需要知道一些基础的语法即可。</p>
+<p>  先简要介绍一些LaTeX基础操作：<br>
+1、LaTeX中分自然段需要至少空一行，对于相连的两行，LaTeX会自动导入成同一段。推荐每行只写一句话，这样在检查时很容易去看每一句在表达什么，相邻的两句话有没有联系或矛盾。当论文字数越写越多时，这种检查更方便，不至于看到整整一段话思路变乱。<br>
+2、LaTeX中可以用“\\”将同一句分行，可以用在标题、表格等地方。<br>
+3、LaTeX中注释用“%”开头。使用注释可以使写论文像码代码一样很方便地留下修改历史以及对内容的注释。</p>
+<p>  模板的第一句为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[doctor](ustcthesis)</span><br><span class="line">% doctor|master|bachelor [academic|professional] [chinese|english] [print|pdf]</span><br></pre></td></tr></table></figure>
+<p>  对于博士直接用doctor,对于本科以及学硕专硕，按注释说明去修改。这里要强调的是，对于打印的论文，学校要求每章从新的一页开始，而不是新的一面开始，这样会产生一些空白页。而当在电脑上用pdf查看时，这些空白页没有意义，所以可以在doctor后面加上pdf，这样导出的pdf没有空白页，适合在电脑上查看。而且会将目录等一些链接显示成蓝色，方便查看。但注意打印时要把pdf语句删掉，保留空白页。</p>
+<p>  模板中的</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">\listoffigures</span><br><span class="line">\listoftables</span><br></pre></td></tr></table></figure>
+<p>可以把注释取消掉，分别代表图目录和表目录<del>，可以凑页数</del>。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\input(chapters/notation)</span><br></pre></td></tr></table></figure>
+<p>为符号说明，可以用来放中英文对照</p>
+<p>  在模板中有很多input语句，input会引入其他的tex文件，对于毕业论文这样的“大工程”，分章节在不同文件可以更方便地管理。在被input引用的文件首行，添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">%!TEX root = ../main.tex</span><br></pre></td></tr></table></figure>
+<p>  对于期刊论文也可以不使用input语句，直接在main.tex中全部书写。</p>
+<p>  对于毕业论文，比较常用的语法是插入标题、插入图片、插入表格、插入公式、插入脚注和引用参考文献。下面分别介绍这些常用的基础语法。这些语法在模板中都有，想更详细地了解可以仔细阅读模板内容，并百度/谷歌。学校模板推荐了一个LaTeX介绍<a href="./%E4%B8%80%E4%BB%BD%E4%B8%8D%E5%A4%AA%E7%AE%80%E7%9F%AD%E7%9A%84LaTeX%E4%BB%8B%E7%BB%8D.pdf">《一份不太简短的LaTeX介绍》</a>。</p>
+<h3><span id="cha-ru-biao-ti"> 插入标题</span><a href="#cha-ru-biao-ti" class="header-anchor">#</a></h3>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">\chapter(章节名)</span><br><span class="line">\section(一级节标题)</span><br><span class="line">\subsection(二级节标题)</span><br><span class="line">\subsubsection(三级节标题)</span><br><span class="line">\paragraph(四级节标题)</span><br><span class="line">\subparagraph(五级节标题)</span><br></pre></td></tr></table></figure>
+<p>  目录中会显示章节名、一级节标题和二级节标题。</p>
+<h3><span id="jiao-cha-yin-yong"> 交叉引用</span><a href="#jiao-cha-yin-yong" class="header-anchor">#</a></h3>
+<p>  交叉引用可以引用图表、公式、章节等。在需要被引用的位置使用\label命令。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\label(&lt;label-name&gt;)</span><br></pre></td></tr></table></figure>
+<p>  之后当需要引用时，使用\ref或\pageref命令，分别生成交叉引用的编号和页码。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">\ref(&lt;label-name&gt;)</span><br><span class="line">\pageref(&lt;label-name&gt;)</span><br></pre></td></tr></table></figure>
+<p>  这个功能在插入图表时会经常用到，在引用章节时也会用到，所以label-name推荐按一定格式书写，使引用更方便易读。例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">\ref(fig:XXX)	%图的标签</span><br><span class="line">\ref(tab:XXX)	%表的标签</span><br><span class="line">\ref(eq:XXX)	%公式标签</span><br><span class="line">\ref(ch:XXX)	%章节标签</span><br></pre></td></tr></table></figure>
+<p>  后面在插入图片中做个示例，其他的交叉引用不再做示例。</p>
+<h3><span id="cha-ru-tu-pian"> 插入图片</span><a href="#cha-ru-tu-pian" class="header-anchor">#</a></h3>
+<p>  矢量图使用pdf格式，位图用jpg或png格式。插入图片使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\begin(figure)[htb]	%htb代表图片位置按顺序选择h(此处)，t(上方)，b(下方)。</span><br><span class="line">  \centering	%居中。\raggedright 左对齐。\raggedleft 右对齐。论文中图片一般使用居中。</span><br><span class="line">  \includegraphics[width=0.3\textwidth](XXX.pdf)	%图片放在figures文件夹下</span><br><span class="line">  \caption(图号、图题置于图的下方)</span><br><span class="line">  \label(fig:XXX)	%图片的标签，引用图片时使用</span><br><span class="line">  \note(注：图注的内容不宜放到图题中。)</span><br><span class="line">\end(figure)</span><br></pre></td></tr></table></figure>
+<p>引用图片时使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">图~\ref(fig:XXX)</span><br></pre></td></tr></table></figure>
+<h3><span id="cha-ru-biao-ge"> 插入表格</span><a href="#cha-ru-biao-ge" class="header-anchor">#</a></h3>
+<p>  表格的格式比较多，包括边框是否显示，内容如何对齐，单元格的长宽等。相应地命令也很繁多。对于毕业论文，《撰写手册》推荐使用三线表。示例如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">\begin(table)[htb]</span><br><span class="line">  \centering\small</span><br><span class="line">  \caption(表号和表题在表的正上方)</span><br><span class="line">  \label(tab:exampletable)</span><br><span class="line">  \begin(tabular)(cl)</span><br><span class="line">    \toprule</span><br><span class="line">    类型   &amp; 描述     \\</span><br><span class="line">    \midrule</span><br><span class="line">    挂线表 &amp; 挂线表也称系统表、组织表，用于表现系统结构 \\</span><br><span class="line">    无线表 &amp; 无线表一般用于设备配置单、技术参数列表等 \\</span><br><span class="line">    卡线表 &amp; 卡线表有完全表，不完全表和三线表三种 \\</span><br><span class="line">    \bottomrule</span><br><span class="line">  \end(tabular)</span><br><span class="line">  \note(注：表注分两种，第一种是对全表的注释，用不加阿拉伯数字排在表的下边，</span><br><span class="line">    前面加“注：”；第二种是和表内的某处文字或数字相呼应的注，</span><br><span class="line">    在表里面用带圈的阿拉伯数字在右上角标出，然后在表下面用同样的圈码注出来)</span><br><span class="line">\end(table)</span><br></pre></td></tr></table></figure>
+<p>对于格式更复杂的表，推荐一个在线生成表格的网站，<a href="http://tablesgenerator.com/" target="_blank" rel="noopener">tablesgenerator.com</a>。</p>
+<h3><span id="cha-ru-gong-shi"> 插入公式</span><a href="#cha-ru-gong-shi" class="header-anchor">#</a></h3>
+<p>  在论文的句中插入公式或数学符号，可以用两个&quot;$&quot;中间夹着所需的公式或符号。对于完整的需要标号的公式，可以使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">\begin(equation)</span><br><span class="line">\label(eq:XXX)</span><br><span class="line">\...</span><br><span class="line">\end(equation)</span><br></pre></td></tr></table></figure>
+<p>  但LaTeX默认按照美国习惯排版数学公式和符号，但《撰写手册》要求数学符号依据《GB 3102.11-1993》执行，所以使用此模板会与LaTeX的习惯有所差异，具体详见模板的说明。最后推荐一个在线生成公式的网站，<a href="https://www.codecogs.com/latex/eqneditor.php" target="_blank" rel="noopener">www.codecogs.com/latex/eqneditor.php</a>。</p>
+<h3><span id="cha-ru-jiao-zhu"> 插入脚注</span><a href="#cha-ru-jiao-zhu" class="header-anchor">#</a></h3>
+<p>  在需要脚注的地方插入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\footnote(&lt;footnote&gt;)</span><br></pre></td></tr></table></figure>
+<p>即可。</p>
+<h3><span id="cha-ru-bian-hao"> 插入编号</span><a href="#cha-ru-bian-hao" class="header-anchor">#</a></h3>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">\begin(enumerate)</span><br><span class="line">\item XXX	%XXX 待编号的文本</span><br><span class="line">\item YYY</span><br><span class="line">\item[*] ZZZ	%item后可带一个可选参数，将序列表符号替换成自定义符号。</span><br><span class="line">\end(enumerate)</span><br></pre></td></tr></table></figure>
+<p>  可嵌套使用，最多嵌套4层。</p>
+<h3><span id="can-kao-wen-xian"> 参考文献</span><a href="#can-kao-wen-xian" class="header-anchor">#</a></h3>
+<p>  首先打开bib文件夹下的ustc.bib，将需要引用的文献放入文件。格式可以直接去谷歌学术搜索你要引用的论文，然后点击论文下面的小引号，选择BibTeX，然后将其复制到ustc.bib文件中。</p>
+<p>  需要引用文献时使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\cite(&lt;cite name&gt;)</span><br></pre></td></tr></table></figure>
+<p>即可。更多其他引用格式可以参考模板。</p>
+<p>  掌握了这些基本就能够使用LaTeX模板写论文了，遇到问题百度/谷歌即可。<br>
+  最后希望大家都能写出漂亮的论文，顺利毕业！！！</p>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://fengbook.cn/2019/12/06/基于科大毕业论文LaTeX模板的LaTeX入门/" title="基于科大毕业论文LaTeX模板的LaTeX入门" target="_blank" rel="external">http://fengbook.cn/2019/12/06/基于科大毕业论文LaTeX模板的LaTeX入门/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://fengbook.cn/about" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://fengbook.cn/about" target="_blank"><span class="text-dark">冯博</span><small class="ml-1x">博士</small></a></h3>
+        <div>中国科学技术大学物理电子学2020届博士生。本科毕业于中国科学技术大学。博士期间主要从事模拟与数模混合芯片设计工作。</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
+    </div>
+  </article>
+  
+    
+  <section id="comments">
+  	
+           
+    
+  </section>
+
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/2019/11/29/模拟IC随笔——SPICE模型整理/" title="模拟IC随笔——SPICE模型整理"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
+  
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+  
+
+
+</main>
+
+  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/fengboo" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="http://weibo.com/fengbook" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    <div class="copyright">
+    	
+        &copy; 2019 Bo Feng
+        
+        <div class="publishby">
+        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div>
+    </div>
+</footer>
+  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script src="/js/plugin.min.js"></script>
+<script src="/js/application.js"></script>
+
+    <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+
+
+
+
+   
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+   
+    
+  <!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"> -->
+  <script src="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
+  <script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: '2e046ccf5ed5f1c78634',
+    clientSecret: '30e649792ad3affae3c6604528bbdc412611299a',
+    repo: 'blog_comments',
+    owner: 'fengboo',
+    admin: ['fengboo'],
+    id: md5(location.pathname),
+    distractionFreeMode: true
+  })
+  gitalk.render('comments')
+  </script>
+
+      
+
+
+
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.js"></script>
+  <script>
+  //利用 FancyBox 实现点击图片放大
+  $(document).ready(function() {
+    $('article img').not('[hidden]').not('.panel-body img').each(function() {
+      var $image = $(this);
+      var imageCaption = $image.attr('alt');
+      var $imageWrapLink = $image.parent('a');
+      if ($imageWrapLink.length < 1) {
+        var src = this.getAttribute('src');
+        var idx = src.lastIndexOf('?');
+        if (idx != -1) {
+          src = src.substring(0, idx);
+        }
+        $imageWrapLink = $image.wrap('<a href="' + src + '"></a>').parent('a');
+      }
+      $imageWrapLink.attr('data-fancybox', 'images');
+      if (imageCaption) {
+        $imageWrapLink.attr('data-caption', imageCaption);
+      }
+    });
+    $().fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+    });
+  });
+  </script>
+
+
+
+
+
+</body>
+</html>
