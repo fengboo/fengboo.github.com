@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fengbook.cn/"/>
-  <updated>2019-12-27T12:56:47.714Z</updated>
+  <updated>2020-01-01T17:33:17.207Z</updated>
   <id>http://fengbook.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>写在2020年第一天的2019年总结</title>
+    <link href="http://fengbook.cn/2020/01/01/%E5%86%99%E5%9C%A82020%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%A4%A9%E7%9A%842019%E5%B9%B4%E6%80%BB%E7%BB%93/"/>
+    <id>http://fengbook.cn/2020/01/01/写在2020年第一天的2019年总结/</id>
+    <published>2020-01-01T13:26:00.000Z</published>
+    <updated>2020-01-01T17:33:17.207Z</updated>
+    
+    <content type="html"><![CDATA[<p>  似乎每到一个时间点总要感慨一下时光易逝。地球自转一周的时间是一日，每日都是24小时的重复，每日都有24小时的纪念时。月球绕地球公转一圈是一个月，每月有大约30日。地球绕太阳公转一圈为一年，一年有12个月365日。时间在一去不复返地流逝着，今年今日的一月一日不是去年的一月一日。人们人为地给时间一个度量，又给时间一个周期，时间还是每时每刻地走着，却也是年复一年地流淌着。日的循环带来了昼夜的重复变化，年的循环带来的四季的更替，似乎月是一个无足轻重的单位，只是因为一年包含的日太多，计算着麻烦。年给人的感觉是不长不短刚刚好：太短，重复太快，没有纪念的热情，要是一个月过一次年感觉就没那么隆重的仪式感了；太长，重复得太慢，人生太短，就像二月二十九日生日的人，过20个生日就要入土了。所以如果抛开地球公转的周期，仅从人的思想角度，年要多久合适呢？<br>  在一去无返的时间上加了年，也就增加了好多值得铭记的纪念日。发生在彼时的某月某日的事件，我们可以在每年的某月某日去纪念。而新年的一月一日，做为新旧交替的一天，总能让人去回味过去，展望未来。<br>  一月的时候还在做QLSD2018激光驱动器芯片的测试，在上研院进行电与光性能的测试，刚刚好参加了先研院的元旦聚会，潘老板彭老板们都在群里面发了好大的红包，师妹还抢到了最大的那个，运气与实力爆表。不过一月更好玩的事是做了PCB的尺子，在优客板做了30块，分给了朋友们。DIY了小键盘，用了Arduino Pro Micro做的主控板，虽然做完就落灰到现在，奶轴的感觉是又重又吵，要是用奶轴的主键盘估计能把实验室其他人吵疯。Arduino后面一直想学着玩玩也一直没有时间没有灵感。到最后芯片测试时在梁师兄的单片机和Arduino之间选择了前者。有时间再玩玩吧。</p><center><img src="PCB尺.jpg" width="30%" height="30%" alt="图片名称" align="middle"><p>图1 PCB尺子</p></center><p></p><center><img src="DIY键盘.jpg" width="30%" height="30%" alt="图片名称" align="center"><p>图2 DIY小键盘</p></center><p></p><center><img src="一窝小可爱.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图3 与CX逛街遇到的一窝小可爱</p></center><p></p><p>  二月就是回家过年了，去年一年只回家了一次，下一次要19天后了，想想还是有点想家的。虽然我喜欢在外面闯荡，对于未来在哪里定居也不怎么会考虑离家的远近，但还是挺喜欢回家的。可能是因为懒吧，毕竟回家就进入了养大爷模式。而且亲戚朋友童年，都在那里。</p><center><img src="吃吃吃.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图4 吃吃吃的一顿</p></center><p></p><center><img src="刘封的逆.jpg" width="30%" height="30%" alt="图片名称" align="center"><p>图5 你竟然把春联吃了</p></center><p></p><p>  三月的重点就是送走了我的胆，结束了一年多的胆疼，从此变成无胆英雄，无胆应无惧。刚买了巨硬家的Surface Pro 6就进了医院。全麻的感觉真是神奇，感觉记忆被掐断了一段。感谢F医生的帮助与治疗，感谢父母与CX的陪伴。怀念那段遵医嘱吃吃吃的日子，怀念刚出院120的体重。我的应聘也从三月的华为开始了。</p><center><img src="胆.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图6 灵魂画风</p></center><p></p><p>  四月时和CX、YL、XZ、XD、YJ等人去北京参加了李福乐老师的课程，整整两天的课程让人受益良多，但当时基础知识不够扎实，要是现在再听一次，可能有更多的收获。J请吃的烤鸭确实不错。没过几天，J也来合肥找我了。四月底给自己设计了一款黑色的PCB名片，嘉立创的5元包邮真心实惠。</p><p>  五一的时候和CX去看了奥莱的室内动物园。动物本身本没有可爱与不可爱之分，因为我们是人，所以才会去思考这些动物到底是可爱还是可怜。我们可以把动物豢养起来给人参观，也可以把动物放回自然保护生态。地球一直都在，生物来来往往一波又一波，现在是人类的时代。</p><center><img src="啊啊啊.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图7 啊！！！</p></center><p></p><p>  六月去广州做随机数芯片的激光测试，第一次去广州，也是去过最南的地方。对于我这个在合肥住习惯的东北人，本以为合肥已经够潮了，结果广州的气候更加潮湿。激光驱动器的文章也顺利发表，第一次写SCI论文，过程顺风顺水，一次小改，一个半月接收，两个月出版。</p><center><img src="小蛮腰.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图8 小蛮腰？大笔筒？</p></center><p></p><p>  七月辛辛苦苦半年多的芯片终于流片了，阶段性地完成了一个任务。</p><center><img src="芯片.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图9 芯片</p></center><p></p><p>  八月和CX去了宝岛台湾。由于局势与政策的原因选择了跟团游。跟团游时间安排地非常赶，除了安排去购物店的时间，其余玩的时间都又紧又短。唯一好一点的可能是帮忙安排了行程和车，可以放松地去玩。对于日月潭这种自然风光没有什么特别的感觉，毕竟大陆的名山大川更多。印象更深的是台湾的夜市，卤肉饭真香。</p><center><img src="台.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图10 堆石子</p></center><p></p><p>  九月招聘季开始了，也开始了我曲折的找工作旅程。前几次应聘一直被拒，自己知识上的漏洞也慢慢显现。那段应聘被拒应聘被拒的日子，焦虑到失眠，自我怀疑。还好那段时间芯片在流片中，实验室的工作不怎么忙。边找工作边学习，不段地充实自己完善自己。期间还参加了一次数字后端的课程。<br>  招聘的焦虑从九月一直延续到十月。本想九月找到工作，十一就能忙里偷闲回家看看，结果现实让我在十一好好地充了充电。感谢CX的陪伴鼓励与帮助，最后拿到了几个offer，让我的招聘季从挫折中开始，在收获中结束。十月的最后参加了ICICM会议，第一次用英文做十几分钟的报告，会议文章会被EI索引，也能完成我的一个毕业要求。</p><center><img src="ICICM.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图11 ICICM会议</p></center><p></p><p>  十一月就开始了芯片测试的准备工作，从COB板的设计，到测试板的设计，测试程序的编写。<br>  十二月就正式开始了芯片测试工作。月初参加了五校的PFUNT论坛，做了口头报告，成绩不怎么理想，只能说超越以前的自我。4款芯片的测试工作有序地进行，测着测着就到了年底。毕业论文的撰写工作也开始了。买了一块8寸的晶圆，真好玩。</p><center><img src="晶圆.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图12 晶圆</p></center><p></p><center><img src="晶圆1.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图13 晶圆显微照片1</p></center><p></p><center><img src="晶圆2.jpg" width="50%" height="50%" alt="图片名称" align="center"><p>图14 晶圆显微照片2</p></center><p></p><p>  看着手机里的照片，回归着2019年发生的事，写着写着一年仿佛又过了一遍。像流水账一样记述了一年的事情，去想一想每个月都做了什么。对于我来说，2019年是充实的一年，事情一件接着一件的到来，一件接着一件地被解决，一直在忙-焦虑-轻松中度过。可以预见的2020也将是一个繁忙的一年，要从校园走向社会，肩上将会有更重的责任。对于2020，我没有什么具体的期望，未知本来就是未来最迷人的地方，而我们的努力是让未来向好的未知去发展。<br>  人们人为地给时间一个度量，又给时间一个周期。反过来人也慢慢适应了这个周期，人们以年为单位工作学习和生活，脱离了土地的人们仿佛依然在春种秋收、夏作冬休。新的一年开始了，新的旅程也开始了，收拾心情，继续前行。<br>  最后，还记得温暖而自信嘛？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;  似乎每到一个时间点总要感慨一下时光易逝。地球自转一周的时间是一日，每日都是24小时的重复，每日都有24小时的纪念时。月球绕地球公转一圈是一个月，每月有大约30日。地球绕太阳公转一圈为一年，一年有12个月365日。时间在一去不复返地流逝着，今年今日的一月一日不是去年的一月
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="http://fengbook.cn/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="杂" scheme="http://fengbook.cn/tags/%E6%9D%82/"/>
+    
+      <category term="生活" scheme="http://fengbook.cn/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>基于科大毕业论文LaTeX模板的LaTeX入门</title>
@@ -107,30 +134,30 @@
   </entry>
   
   <entry>
-    <title>Latex文本对比</title>
+    <title>LaTeX文本对比</title>
     <link href="http://fengbook.cn/2019/09/14/Latex%E6%96%87%E6%9C%AC%E5%AF%B9%E6%AF%94/"/>
     <id>http://fengbook.cn/2019/09/14/Latex文本对比/</id>
-    <published>2019-09-14T09:13:32.000Z</published>
-    <updated>2019-09-17T11:28:33.064Z</updated>
+    <published>2019-09-14T09:13:00.000Z</published>
+    <updated>2020-01-01T17:24:40.551Z</updated>
     
-    <content type="html"><![CDATA[<p>利用Latex写文章时，有时候编辑会要求对修改内容进行高亮显示。可以利用<strong>Latexdiff</strong>方便地进行对比与显示。</p><p>首先安装<strong>Perl</strong>，可以下载安装<a href="http://strawberryperl.com/" target="_blank" rel="noopener">Strawberry Perl</a>。然后将perl.exe所在的路径添加到系统变量的Path下。</p><p>确认安装<strong>Latexdiff</strong>，一般安装CTex时会自动安装好Latexdiff。</p><p>在.tex所在的文件夹下打开Perl或cmd（我使用cmd失败），输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">latexdiff-so old_version.tex new_version.tex &gt; differences.tex</span><br></pre></td></tr></table></figure><p>即可得到对比的tex文件differences.tex。再编译一次新生成的differences.tex便得到对比文件。</p>]]></content>
+    <content type="html"><![CDATA[<p>利用LaTeX写文章时，有时候编辑会要求对修改内容进行高亮显示。可以利用<strong>Latexdiff</strong>方便地进行对比与显示。</p><p>首先安装<strong>Perl</strong>，可以下载安装<a href="http://strawberryperl.com/" target="_blank" rel="noopener">Strawberry Perl</a>。然后将perl.exe所在的路径添加到系统变量的Path下。</p><p>确认安装<strong>Latexdiff</strong>，一般安装CTex时会自动安装好Latexdiff。</p><p>在.tex所在的文件夹下打开Perl或cmd（我使用cmd失败），输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">latexdiff-so old_version.tex new_version.tex &gt; differences.tex</span><br></pre></td></tr></table></figure><p>即可得到对比的tex文件differences.tex。再编译一次新生成的differences.tex便得到对比文件。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;利用Latex写文章时，有时候编辑会要求对修改内容进行高亮显示。可以利用&lt;strong&gt;Latexdiff&lt;/strong&gt;方便地进行对比与显示。&lt;/p&gt;
+        &lt;p&gt;利用LaTeX写文章时，有时候编辑会要求对修改内容进行高亮显示。可以利用&lt;strong&gt;Latexdiff&lt;/strong&gt;方便地进行对比与显示。&lt;/p&gt;
 &lt;p&gt;首先安装&lt;strong&gt;Perl&lt;/strong&gt;，可以下载安装&lt;a href=&quot;http://strawber
       
     
     </summary>
     
-      <category term="Latex" scheme="http://fengbook.cn/categories/Latex/"/>
+      <category term="LaTeX" scheme="http://fengbook.cn/categories/LaTeX/"/>
     
     
       <category term="学习" scheme="http://fengbook.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Latex" scheme="http://fengbook.cn/tags/Latex/"/>
+      <category term="LaTeX" scheme="http://fengbook.cn/tags/LaTeX/"/>
     
   </entry>
   
