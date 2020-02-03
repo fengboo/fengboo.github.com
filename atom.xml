@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fengbook.cn/"/>
-  <updated>2020-01-01T17:33:17.207Z</updated>
+  <updated>2020-02-03T10:35:40.275Z</updated>
   <id>http://fengbook.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在线数独</title>
+    <link href="http://fengbook.cn/2020/02/03/%E5%9C%A8%E7%BA%BF%E6%95%B0%E7%8B%AC/"/>
+    <id>http://fengbook.cn/2020/02/03/在线数独/</id>
+    <published>2020-02-03T10:32:00.000Z</published>
+    <updated>2020-02-03T10:35:40.275Z</updated>
+    
+    <content type="html"><![CDATA[<h1><span id="zai-xian-shu-du-xiao-you-xi"> 在线数独小游戏</span><a href="#zai-xian-shu-du-xiao-you-xi" class="header-anchor">#</a></h1><center><iframe src="http://cn.sudokupuzzle.org/online.php" frameborder="0" width="425" scrolling="no" style="height:485px !important;height:475px;"></iframe></center>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1&gt;&lt;span id=&quot;zai-xian-shu-du-xiao-you-xi&quot;&gt; 在线数独小游戏&lt;/span&gt;&lt;a href=&quot;#zai-xian-shu-du-xiao-you-xi&quot; class=&quot;header-anchor&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;center&gt;&lt;i
+      
+    
+    </summary>
+    
+      <category term="游戏" scheme="http://fengbook.cn/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+      <category term="游戏" scheme="http://fengbook.cn/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+      <category term="数独" scheme="http://fengbook.cn/tags/%E6%95%B0%E7%8B%AC/"/>
+    
+  </entry>
   
   <entry>
     <title>写在2020年第一天的2019年总结</title>
